@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "/datav/lean/protobuf3.11.4/include/**",
+                "/datav/lean/opencv-4.2.0/include/opencv4/**",
+                "/datav/lean/cuda-10.2/include/**",
+                "/datav/lean/TensorRT-8.0.1.6-cuda10.2-cudnn8.2/include/**",
+                "/datav/lean/cudnn7.6.5.32-cuda10.2/include/**",
+                "/datav/software/anaconda3/include/python3.9/**"
+            ],
+            "defines": ["__CUDACC__", "HAS_PYTHON"],
+            "compilerPath": "/usr/bin/gcc", 
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src/**",
+                    "/datav/lean/protobuf3.11.4/include/**",
+                    "/datav/lean/opencv-4.2.0/include/opencv4/**",
+                    "/datav/lean/cuda-10.2/include/**",
+                    "/datav/lean/TensorRT-8.0.1.6-cuda10.2-cudnn8.2/include/**",
+                    "/datav/lean/cudnn7.6.5.32-cuda10.2/include/**",
+                    "/datav/software/anaconda3/include/python3.9/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
